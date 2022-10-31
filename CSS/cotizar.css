@@ -1,0 +1,85 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #57c5ed;
+}
+h1{
+    text-align: center;
+    margin-top: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+}
+form .doc{
+    padding: 4px 21px;
+    margin-left: 20px;
+    margin-top: 44px;
+    text-align: center;
+    font-weight: 300;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+}
+form .nom{
+    padding: 4px 21px;
+    margin-left: 20px;
+    margin-top: 44px;
+    text-align: center;
+    font-weight: 300;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+}
+form .apel{
+    padding: 4px 21px;
+    margin-left: 20px;
+    margin-top: 44px;
+    text-align: center;
+    font-weight: 300;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+}
+form .sueld{
+    padding: 4px 21px;
+    margin-left: 20px;
+    margin-top: 44px;
+    text-align: center;
+    font-weight: 300;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+}
+form .dias{
+    padding: 4px 21px;
+    margin-left: 20px;
+    margin-top: 44px;
+    text-align: center;
+    font-weight: 300;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+}
+.boton{
+    padding: .375rem .75rem;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    color: #007bff;
+    margin-left: 22px;
+    margin-top: 42px;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+}
+.boton:hover, .boton:active, .boton:focus {
+    color: #fff;
+    background-color: #007bff;
+}
+ 

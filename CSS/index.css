@@ -1,0 +1,52 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-image: url(../mat.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+}
+form{
+   
+    width:610px;
+    height: 320px;
+	padding:16px;
+	border-radius:10px;
+	margin:120px;
+    margin-left: 400px;
+	background-color:#175b8c;
+
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-top: 44px;
+}
+input.text {
+    background: silver;
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 9px 48px;
+    margin-left: 180px;
+}
+#ingresar{
+    text-decoration: none;
+    padding: 4px  11px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 240px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
